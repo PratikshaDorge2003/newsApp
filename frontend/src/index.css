@@ -1,0 +1,322 @@
+.centerized{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title{
+  
+  color: rgb(24, 8, 39);
+  display: flex;
+  justify-content: center;
+  top:50px
+}
+
+
+.a{
+  border: 2px solid black;
+  height: 510px;
+  margin: 20px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.newsbtn{
+  border: 0px;
+  background-color: green;
+  color: beige;
+  padding: 5px 40px;
+  margin:10px;
+  text-decoration: none;
+}
+
+.newscomp{
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image{
+ object-fit: fill;
+height: 170px;
+width:290px;
+
+}
+
+.item{
+  margin: 10px 10px;
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.btn1{
+  border: 0px;
+  background-color: green;
+  color: beige;
+  padding: 3px 10px;
+  margin: 30px 10px;
+
+  
+}
+
+.topNav, .navtitle{
+  background-color: green;
+  color: beige;
+  padding:5px 5px;
+ 
+
+}
+.topNav{
+  position:sticky;
+  top: 0px;
+}
+
+.toptitle{
+ padding-top: 40px;
+}
+
+.btn1:disabled{
+  display: none;
+}
+
+.spinner{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.category{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.category:hover{
+  color: rgb(24, 8, 39);
+  font-weight: 650;
+  font-size: 17px;
+}
+
+.source{
+  background-color:white; 
+  color :red;
+  border: 1px solid red;
+  padding: 1px 15px;
+  margin: 0px 20px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.newsbtn:hover{
+  background-color:whitesmoke;
+  color: green;
+  border: 1px solid green;
+}
+
+.loginpage{
+  background-color: rgb(219, 212, 212);
+  height: 450px;
+  width: 350px;
+  border-radius: 5px;
+  flex-direction:column;
+  margin: 25px 0px;
+  border: 1px solid rgb(93, 92, 92);
+ 
+  
+}
+
+.text{
+  padding: 8px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(166, 162, 162);
+  background-color: rgb(234, 229, 229) ;
+}
+
+.topDiv{
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  flex-direction: column;
+  height: 660px;
+  background-color: rgb(109, 157, 190);
+  margin: 0px 20px;
+ 
+}
+
+.SignBtn{
+  height: 30px;
+  width: 150px;
+  margin: 10px;
+  background-color: green;
+  color: aliceblue;
+  border: 0;
+  border-radius: 5px;
+}
+
+.header{
+  color: green;
+  margin: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 0;
+  background-color:rgb(219, 212, 212) ;
+}
+
+.bottom{
+  margin: 10px;
+}
+
+.bottomDiv{
+  background-color: rgb(145, 146, 154);
+  height: 400px;
+ 
+}
+
+.left,.right{
+  width: 50%;
+}
+
+.AboutImg{
+ height: 300px;
+ width: 350px;
+ border-radius: 30px;
+}
+
+.BottomHead{
+  height: 100px;
+}
+
+.BottomDetails{
+  
+  background-color: rgb(192, 188, 188);
+  padding: 80px;
+}
+
+.profile{
+  height: 40px;
+  width: 50px;
+}
+
+.ProfileInfo{
+  height: 500px;
+  width: 700px;
+  background-color: rgb(195, 212, 206);
+  border-radius: 5px;
+}
+
+.ProfileTop{
+  flex-direction: column;
+  height: 600px;
+}
+
+
+.img1{
+  height: 120px;
+  width: 180px;
+  margin-bottom: 30px;
+
+}
+
+.profileHead{
+  padding: 30px;
+}
+
+.alert{
+  color:  rgb(17, 16, 16) ;
+  font-weight:700;
+  text-decoration: underline;
+}
+
+.alert:hover{
+  color: rgb(97, 0, 13);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.background{
+  background-color: rgb(192, 188, 188);
+}
+
+.PopupForm{
+  width: 260px;
+  height:210px;
+  background-color: rgb(212, 217, 213);
+  flex-direction: column;
+  border-radius: 10px ;
+  position: absolute;
+  bottom: 12%;
+  padding: 30px 20px;
+}
+.PopupForm h6{
+  margin-top: 20px;
+  color: rgb(7, 7, 7);
+}
+
+.PopupForm button{
+  padding: 2px 30px;
+}
+
+.btn1:disabled{
+  background-color:rgb(212, 217, 213) ;
+  color: rgb(212, 217, 213);
+  border:0px
+}
+
+.profilebtn{
+  flex-direction: column;
+}
+
+.logoutBtn{
+  margin-bottom:10px ;
+}
+
+.ProfileInfo{
+  cursor: pointer;
+}
+
+
+.logoutBtn:hover{
+  padding: 4px 20px;
+  background-color:rgb(235, 243, 240) ;
+  border: 1px solid green;
+  color: green;
+  font-weight: 800;
+}
+
+.text2{
+  padding: 1.5px 5px;
+ 
+}
+
+.text3{
+  padding: 1.5px 5px;
+ width:130px;
+}
+
+.Otpbtn{
+  width: 60px;
+  height: 40px;
+ 
+ 
+}
+
+.PopupPassword {
+  position: absolute;
+  bottom: 18%;
+  background-color:rgb(169 198 217) ;
+  height: 400px;
+  width: 280px;
+
+}
